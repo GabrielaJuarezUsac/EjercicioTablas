@@ -1,0 +1,104 @@
+/* Normalizar los estilos: es eliminar los estilos que el navegador aplica */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#e6e6e6;
+}
+.contenedor{
+    background-color: #f8f9fa;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    border-collapse: collapse;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+table, th, td{
+    border: 1px solid #e4e4e4;
+    padding: 15px;
+    text-align: center;
+}
+table, th{
+    border: 1px solid #e4e4e4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+th{
+    background-color: white;
+    color: black;
+}
+.par {
+    background-color: #f2f4f7;
+}
+header{
+    background-color: #3A3A8E;
+    padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    color: #3b3bdb;
+}
+.data{
+    background-color: #f1f1ff;
+}
+.universidades{
+    border: 15px solid white;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 350px;
+}
+.texto{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+    color: white;
+}
+footer{
+    background-color: #212163;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

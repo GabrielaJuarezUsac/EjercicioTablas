@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Tablas</title>
+    <link rel="icon" href="imagenes/simbolo.png">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<!--La etiqueta DIV sirve únicamente para fines de diagramación y estéticos.
+Vamos a usar la etiqueta Table para crear la tabla que contiene Filas (table row), las filas pueden ser de cabecera (table header th), mientras que las demás filas llevan únicamente daatos (table data td)-->
+
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Ejercicio de Tablas y CSS</h1>
+            <h2>Técnicas Digitales 7</h2>
+        </header>
+        <main>
+            <h3>Estas personas no lograron ganar el semestre, ánimo y a echarle más ganas</h3>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Estado</th>
+                    <th>Ubicación</th>
+                </tr>
+                <tr class="par">
+                    <td>Fulanito</td>
+                    <td>Haragán</td>
+                    <td>Feliz</td>
+                    <td>En la playa</td>
+                </tr>
+                <tr>
+                    <td>Carlitos</td>
+                    <td>Tremendus</td>
+                    <td>Destrozado</td>
+                    <td>Con la psicóloga</td>
+                </tr>
+                <tr class="par">
+                    <td>Ana</td>
+                    <td>Crisis</td>
+                    <td>En crisis</td>
+                    <td>En la dirección</td>
+                </tr>
+                <tr>
+                    <td>Luz</td>
+                    <td>Tardanza</td>
+                    <td>Normal</td>
+                    <td>En su casa</td>
+                </tr>
+            </table>
+            <h3>Estas son las universidades a las que puedes optar, mejor ve preparando el riñón
+            </h3>
+            <p>
+                Puedes dar click en las imágenes para más información de tu nuevo futuro...
+            </p>
+            <table class="universidades">
+                <tr>
+                    <td class="data">
+                        <a href="https://www.umg.edu.gt/">
+                            <img src="imagenes/mariano.jpg" alt="logo universidad">
+                        </a>
+                    </td>
+                    <td class="data">
+                        <a href="https://principal.url.edu.gt/">
+                            <img src="imagenes/landivar.jpg" alt="logo universidad">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="data">
+                        <a href="https://udv.edu.gt/">
+                            <img src="imagenes/davinci.jpg" alt="logo universidad">
+                        </a>
+                    </td>
+                    <td class="data">
+                        <a href="https://www.upana.edu.gt/">
+                            <img src="imagenes/panamericana.jpg" alt="logo universidad">
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </main>
+        <aside>
+            <h3 class="texto">Esta es la ubicación donde puedes iniciar tu trámite de venta de órganos para pagar la U.</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.759127558559!2d-90.5427648!3d14.6127929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a19facbb7591%3A0xb4735759a72a16f5!2sHospital%20Roosevelt!5e0!3m2!1ses-419!2sgt!4v1730854498184!5m2!1ses-419!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </aside>
+        <footer>
+            <p class="derechos">Derechos reservados 2024</p>
+        </footer>
+    </div>
+</body>
+
+</html>
